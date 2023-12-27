@@ -1,3 +1,21 @@
+body {
+  background-image: url(./img/backgroundwall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+}
+
 .img-navb {
   width: 80px;
+}
+
+h1 {
+  color: #bbbbbb;
+  margin: 60px;
+  text-align: center;
+  border: 1px solid white;
+  padding: 40px;
+  font-family: "Mrs Saint Delafield", cursive;
+  font-size: 3em;
 }
