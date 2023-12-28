@@ -12,10 +12,60 @@ body {
 
 h1 {
   color: #bbbbbb;
-  margin: 60px;
+  margin-top: 160px;
+  margin-left: 60px;
+  margin-right: 60px;
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid #666666;
   padding: 40px;
   font-family: "Mrs Saint Delafield", cursive;
   font-size: 3em;
+}
+
+main {
+  display: flex;
+  gap: 3em;
+  padding: 2em;
+  justify-content: center;
+  align-items: start;
+  background: rgb(33, 37, 41);
+  opacity: 0.8;
+}
+
+main img {
+  width: 22em;
+  height: 35em;
+  border: 1px solid #1c1c1c;
+}
+
+main p {
+  padding: 2em;
+  color: #b5b5b5;
+  font-size: 0.8em;
+  width: 40em;
+  text-align: justify;
+}
+
+.main-title {
+  color: black;
+  background-color: white;
+  padding: 1em;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h4 {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 50px;
+  box-shadow: 6px 5px 5px black;
+}
+
+ul {
+  list-style-type: none;
+  text-align: justify;
+  line-height: 2em;
 }
