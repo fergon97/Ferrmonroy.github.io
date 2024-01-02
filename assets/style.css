@@ -182,12 +182,11 @@ header {
 header h1 {
   color: #bbbbbb;
   margin-top: 160px;
-  margin-left: 107px;
+  margin-left: 60px;
   margin-bottom: 30px;
   text-align: center;
   border: 1px solid #666666;
   padding: 40px;
   font-family: "Mrs Saint Delafield", cursive;
-  font-size: 3em;
-  width: 1135px;
+  font-size: 2em;
 }
