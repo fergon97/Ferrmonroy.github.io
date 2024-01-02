@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   font-family: "Roboto", sans-serif;
   color: #ccc;
+  text-align: justify;
 }
 
 /*BARRA DE NAVEGACIÓN*/
@@ -119,4 +120,24 @@ h3 {
 }
 .timeline-content p {
   margin-bottom: 0;
+}
+
+/*SECCIÓN INTERESES*/
+.caracteristicas {
+  background-color: #141a22;
+  margin-top: 80px;
+}
+
+.flex {
+  display: flex;
+  font-size: 0.9em;
+  justify-content: space-evenly;
+  padding: 2em;
+}
+
+.caracteristicas h2 {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: -1em;
 }
