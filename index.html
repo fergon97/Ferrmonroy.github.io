@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/style.css" />
-    <link rel="icon" type="image/jpg" href="./assets/imgs/favicon-1.png" />
+    <link rel="icon" type="image/jpg" href="./assets/img/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -56,7 +56,12 @@
               target="_blank"
               >Contacto</a
             >
-            <a class="nav-link opacity-50" target="_blank">Portafolio</a>
+            <a
+              href="./portafolio.html"
+              class="nav-link opacity-50"
+              target="_blank"
+              >Portafolio</a
+            >
           </div>
         </div>
       </div>
@@ -343,6 +348,44 @@
         </div>
       </div>
     </section>
+    <!--FORMULARIO-->
+    <section
+      class="container-fluid justify-content-center bg-primary text-center mt-4 mb-4 p-4"
+    >
+      <p class="fs-5 fw-medium p-3 text-white">¡Contáctate conmigo!</p>
+      <form>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control text-muted fw-light"
+            placeholder="Nombre"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control text-muted fw-light"
+            placeholder="Correo Electrónico"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control text-muted fw-light"
+            placeholder="Mensaje"
+          />
+        </div>
+        <button type="submit" class="btn btn-light mb-3">Enviar</button>
+      </form>
+    </section>
+    <footer class="container-fluid bg-dark">
+      <i class="fa-solid fa-copyright"></i>Fernanda Rojas Monroy. Todos los
+      derechos reservados.
+      <p>
+        “It took me quite a long time to develop a voice, and now that I have
+        it, I am not going to be silent.” – Madeleine Albright
+      </p>
+    </footer>
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

@@ -141,3 +141,53 @@ h3 {
   padding: 2em;
   margin-bottom: -1em;
 }
+
+/*FOOTER*/
+
+footer {
+  height: 170px;
+  padding: 3em;
+  text-align: center;
+}
+
+footer p {
+  font-style: italic;
+}
+
+/*PORTAFOLIO*/
+
+.card {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  text-align: justify;
+  width: 320px;
+  color: #282626;
+}
+
+header {
+  margin-top: -120px;
+}
+
+header h1 {
+  color: #bbbbbb;
+  margin-top: 160px;
+  margin-left: 107px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid #666666;
+  padding: 40px;
+  font-family: "Mrs Saint Delafield", cursive;
+  font-size: 3em;
+  width: 1135px;
+}
