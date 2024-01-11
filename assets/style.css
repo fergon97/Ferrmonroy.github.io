@@ -34,7 +34,7 @@ main {
   padding: 2em;
   justify-content: center;
   align-items: start;
-  background: rgb(33, 37, 41);
+  background-image: url(./img/bgmain.jpg);
   opacity: 0.8;
 }
 
@@ -124,7 +124,7 @@ h3 {
 
 /*SECCIÓN INTERESES*/
 .caracteristicas {
-  background-color: #141a22;
+  background-color: #1a2b42;
   margin-top: 80px;
 }
 
