@@ -38,6 +38,10 @@ main {
   opacity: 0.8;
 }
 
+i {
+  color: white;
+}
+
 main img {
   width: 22em;
   height: 35em;
